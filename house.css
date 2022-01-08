@@ -157,11 +157,7 @@ nav{
     font-weight: 500;
     color:#333;
 }
-<<<<<<< HEAD
 /*------exclusive-----*/
-=======
-/*------exclusive------*/
->>>>>>> 7c16f7921ec93bd623bd4d65108a43a5d857c9a3
 .exclusive{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -183,11 +179,7 @@ nav{
     text-align: center;
     color: #fff;
 }
-<<<<<<< HEAD
 .exclusive div:hover{
-=======
-.exclusive span:hover{
->>>>>>> 7c16f7921ec93bd623bd4d65108a43a5d857c9a3
     cursor: pointer;
     display: block;
 }
