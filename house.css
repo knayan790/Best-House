@@ -85,6 +85,71 @@ nav{
 .search-bar label{
     font-weight: 600;
 }
+/*----user-login---*/
+.user-login{
+    width: 480px;
+    height: 500px;
+    border: 2px solid #fff;
+    margin-top: 65px;
+    margin-left: 430px;
+    position: relative;
+    display: none;
+}
+.user-login .fa-times{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 18px;
+}
+.user-login .fa-times:hover{
+    cursor: pointer;
+    color: #ff5361;
+}
+.user-login h2{
+    text-align: center;
+    margin-top: 65px;
+    color: #fff;
+}
+.user-login form{
+    margin-top: 20px;
+    text-align: center;
+}
+.user-login input{
+    width: 300px;
+    height: 35px;
+    margin-top: 27px;
+}
+.user-login input::placeholder{
+    font-weight: bolder;
+}
+.user-login .fgt{
+    font-size: 18px;
+    margin-top: 22px;
+    margin-left: -153px;
+}
+.fgt a{
+    color: #fff;
+}
+.user-login button{
+    width: 300px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #ff5361;
+    color: #000;
+    font-size: 18px;
+    margin-top: 25px;
+    border: 0;
+    outline: none;
+}
+.user-login .dont-have{
+    margin-left: -41px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.dont-have a{
+    padding-left: 7px;
+}
 /*----excluseive css---*/
 .sub-title{
     margin: 50px 0 20px;
@@ -92,6 +157,7 @@ nav{
     font-weight: 500;
     color:#333;
 }
+/*------exclusive-----*/
 .exclusive{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -105,12 +171,17 @@ nav{
     position: relative;
 }
 .exclusive div span{
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+}
+.exclusive div:hover{
+    cursor: pointer;
+    display: block;
 }
 /*---------trending places-----*/
 .trending{
@@ -275,6 +346,15 @@ nav{
         left: 30%;
         transform: translate(0, 50%);
         bottom: 50%;
+    }
+    .user-login{
+            width: 90%;
+            height: 400px;
+            border: 2px solid #fff;
+            margin-top: 175px;
+            margin-left: -6px;
+            display: none;
+            position: absolute;
     }
     .hideMenu{
         max-height: 300px;
