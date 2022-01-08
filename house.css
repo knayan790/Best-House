@@ -157,7 +157,11 @@ nav{
     font-weight: 500;
     color:#333;
 }
+<<<<<<< HEAD
 /*------exclusive-----*/
+=======
+/*------exclusive------*/
+>>>>>>> 7c16f7921ec93bd623bd4d65108a43a5d857c9a3
 .exclusive{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -179,7 +183,11 @@ nav{
     text-align: center;
     color: #fff;
 }
+<<<<<<< HEAD
 .exclusive div:hover{
+=======
+.exclusive span:hover{
+>>>>>>> 7c16f7921ec93bd623bd4d65108a43a5d857c9a3
     cursor: pointer;
     display: block;
 }
@@ -411,4 +419,82 @@ nav{
     .about-msg{
         font-size: 15px;
     }
+}
+.login-form{
+    width: 370px;
+    height: 400px;
+    background:#fff;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.fa-times{
+    position: absolute;
+    right: 7px;
+    top: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.fa-times:hover{
+    color:#ff5361;
+}
+.form-btn{
+    margin: 20px 0;
+}
+.form-btn button{
+    background: transparent;
+    width: 70px;
+    height: 30px;
+    border: 0;
+    padding: 0;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 700px;
+}
+.login-form form{
+    margin-top: 20px;
+}
+.fPassword{
+    text-decoration: none;
+    font-weight: bolder;
+    position: absolute;
+    left: 30px;
+    font-size: 18px;
+}
+.fPassword:hover{
+    text-decoration: underline;
+}
+.login-form input{
+    width: 240px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin: 20px 30px;
+    color: #fff;
+}
+.login-form input::placeholder{
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-left: 8px;
+}
+.l-btn{
+    margin-top: 30px;
+    width: 230px;
+    height: 35px;
+    background-color: #ff5361;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sign-up-link{
+    margin-top: 30px;
+    font-size: 18px;
 }
